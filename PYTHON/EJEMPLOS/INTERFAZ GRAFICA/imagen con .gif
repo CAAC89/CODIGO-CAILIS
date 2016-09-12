@@ -1,0 +1,8 @@
+from Tkinter import *
+
+v0=Tk()
+imagen1=PhotoImage(file="intel.gif")
+label1 = Label(v0, image=imagen1)
+label1.grid(row=1,column=1)
+
+#v0.mainloop()
